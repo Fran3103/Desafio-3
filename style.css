@@ -170,16 +170,19 @@ span{
             align-items: center;
         
         }
-        .card .img img{
+        #cripto{
             max-width: 320px ;
             width: 100%;
             max-height: 320px;
             height: 100%;
             margin-bottom: 6px;
-           
+            cursor: pointer;
             border-radius: 15px;
         
         }
+       
+
+       
         .card .text{
             display: flex;
             justify-content: flex-start;
@@ -193,7 +196,11 @@ span{
             font-family: 'outfit';
             font-weight: 600;
             font-size: 20px;
+            cursor: pointer;
             text-align: start;
+        }
+        .text h1:hover{
+            color: hsl(178, 100%, 50%);
         }
         
         .card .text p{
@@ -272,11 +279,16 @@ span{
             font-size: 14px;
             color: hsl(206, 20%, 56%)  ;
         }
-        
+
+      
         span{
             color:hsl(0, 0%, 100%) ;
+            cursor: pointer;
         }
-        
+        span:hover{
+            color:  hsl(178, 100%, 50%);
+         }
+         
 
 
 
